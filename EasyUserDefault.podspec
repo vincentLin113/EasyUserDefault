@@ -10,17 +10,15 @@ Pod::Spec.new do |s|
 
   s.name         = "EasyUserDefault"
   s.version      = "1.0.1"
-  s.summary      = "A short description of EasyUserDefault."
-  s.description  = <<-DESC
-                   DESC
+  s.summary      = "Easy and elegant uses UserDefault"
+  s.description  = "Check any valid type before you save or after saved"
   s.homepage     = "https://github.com/vincentLin113/EasyUserDefault"
   s.license      = "MIT"
-  s.author             = { "Lin Vincent" => "keepexcelsior@gmail.com" }
-  s.social_media_url   = "https://www.linkedin.com/in/lin-vincent-99659715b/"
+  s.author             = { "Vincent Lin" => "keepexcelsior@gmail.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/vincentLin113/EasyUserDefault", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/vincentLin113/EasyUserDefault.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Source/**/*.{h,m,swift}"
+  s.source_files  = "EasyUserDefault/Source/**/*.{h,m,swift}"
   s.swift_version = '3.3'
 
 end
